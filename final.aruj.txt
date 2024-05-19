@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Tile Store</title>
+    <style>
+        /* Add your CSS styles here */
+        /* This is just basic styling, you can customize it according to your preference */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .contact-info {
+            text-align: right;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .search-bar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .tile {
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .discounted-tiles {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .reviews {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .consultation {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 5px;
+            padding: 5px;
+            width: 200px;
+        }
+        .contact-form button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-info p {
+            margin: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Company Logo" class="logo">
+        <div class="contact-info">
+            <p>Contact Us: 123-456-7890</p>
+            <p>About</p>
+            <p>Add to Cart</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#free-delivery">Free Delivery</a></li>
+            <li><a href="#order-samples">Order Samples</a></li>
+            <li><a href="#tiles-designs">3500+ Tiles Designs</a></li>
+        </ul>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for tiles...">
+        <button>Search</button>
+    </div>
+    <div class="gallery">
+        <!-- Gallery Space -->
+        <!-- Add your tile images and details here -->
+        <!-- Example: -->
+        <div class="tile">
+            <img src="tile1.jpg" alt="Tile 1">
+            <h3>Tile 1</h3>
+            <p>Description of Tile 1</p>
+            <p>Price: $20</p>
+        </div>
+        <div class="tile">
+            <img src="tile2.jpg" alt="Tile 2">
+            <h3>Tile 2</h3>
+            <p>Description of Tile 2</p>
+            <p>Price: $25</p>
+        </div>
+        <!-- Add more tiles here -->
+    </div>
+    <section id="free-delivery" class="discounted-tiles">
+        <h2>Free Delivery</h2>
+        <p>Get free delivery on orders over $100.</p>
+    </section>
+    <section id="order-samples" class="discounted-tiles">
+        <h2>Order Samples</h2>
+        <p>Order samples to see the quality before purchasing.</p>
+    </section>
+    <section id="tiles-designs" class="discounted-tiles">
+        <h2>3500+ Tiles Designs</h2>
+        <p>Choose from a wide variety of tile designs.</p>
+    </section>
+    <section class="reviews">
+        <h2>Client Reviews</h2>
+        <p>Great selection of tiles at affordable prices!</p>
+        <p>Excellent customer service. Highly recommended!</p>
+    </section>
+    <section class="consultation">
+        <h2>Free Consultation</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Phone Number">
+            <input type="email" placeholder="Email Address">
+            <input type="text" placeholder="Product of Interest">
+            <textarea placeholder="Details"></textarea>
+            <button>Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>Company Address: 123 Main Street, City, Country</p>
+        <p>Contact Email: info@hometilestore.com</p>
+    </footer>
+</body>
+</html>
